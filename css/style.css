@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: 30px;
+}
+.products {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
