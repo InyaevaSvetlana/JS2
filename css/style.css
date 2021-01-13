@@ -4,12 +4,26 @@ body {
     padding: 0;
 }
 .header {
-    margin: 30px;
+    padding: 20px;
+    background-color: #D3B8DB;
+    display: flex;
+    justify-content: flex-end;
 }
+.btn-cart{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 15px;
+    background-color: rgb(194, 192, 192);
+}
+
 .products {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
+}
+.product-title{
+    font-size: 20px;
 }
